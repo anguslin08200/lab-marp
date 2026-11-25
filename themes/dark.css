@@ -1,0 +1,7 @@
+/* @theme dark */
+@import 'default';
+/* High contrast on a dark canvas supports photo-heavy demonstrations. */
+section {font-family:'Microsoft JhengHei','Segoe UI',sans-serif;font-size:28px;padding:65px 76px;background:#132334;color:#e7eef6}
+h1 {font-size:46px;color:#8fc9ed} h2 {font-size:36px;color:#8fc9ed} strong {color:#8fc9ed}
+footer,section::after {font-size:16px;color:#9bb0c5}
+table {font-size:24px;color:#e7eef6} th {background:#20394f} tr {background:#132334} tr:nth-child(2n){background:#1c3043}

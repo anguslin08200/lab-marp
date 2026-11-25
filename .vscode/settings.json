@@ -1,0 +1,7 @@
+{
+  // Show the same Markdown slide rendering in VS Code and CLI exports.
+  "markdown.marp.html": true,
+  "markdown.marp.mathTypesetting": "katex",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 800
+}

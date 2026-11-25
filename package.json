@@ -1,0 +1,27 @@
+{
+  "name": "lab-marp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Markdown laboratory slides with Marp",
+  "scripts": {
+    "dev": "node server.cjs",
+    "dev:marp": "marp --server --watch slides",
+    "check:workbench": "node scripts/check-workbench.cjs",
+    "check:attachments": "node scripts/check-attachments.cjs",
+    "check:selection": "node scripts/check-selection-sync.cjs",
+    "export:pptx": "marp slides/index.md --pptx --allow-local-files -o output/lab-meeting.pptx",
+    "export:pdf": "marp slides/index.md --pdf --allow-local-files -o output/lab-meeting.pdf",
+    "export:html": "marp slides/index.md -o slides/preview.html",
+    "check:images": "marp slides/index.md --images png --allow-local-files -o output/check.png"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  },
+  "dependencies": {
+    "@marp-team/marp-core": "4.4.0",
+    "js-yaml": "4.3.2",
+    "mammoth": "1.13.0",
+    "pdfjs-dist": "6.4.299",
+    "puppeteer-core": "24.43.1"
+  }
+}

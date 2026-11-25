@@ -1,0 +1,10 @@
+# Dependencies and generated slides can be rebuilt from the Markdown source.
+node_modules/
+output/
+slides/preview.html
+*.log
+.codex-work/
+# .codex-work/ is entirely local: personal Codex memory (seeded from templates/codex-memory.default.md), uploads, MinerU cache.
+.delegation/
+# Personal report-specific scripts (Mamba report) stay local; the tool itself is generic.
+scripts/*mamba*

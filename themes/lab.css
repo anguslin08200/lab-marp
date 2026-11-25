@@ -1,0 +1,9 @@
+/* @theme lab */
+@import 'default';
+/* A restrained meeting theme with sufficient space for experimental figures. */
+section {font-family:'Microsoft JhengHei','Segoe UI',sans-serif;font-size:28px;padding:65px 76px;background:#fff;color:#243444;border-top:8px solid #174f78}
+h1 {font-size:46px;color:#174f78} h2 {font-size:36px;color:#174f78} strong {color:#174f78}
+footer,section::after {font-size:16px;color:#64748b}
+section.cover {background:#112f48;color:white} section.cover h1,section.cover strong {color:white}
+section.cover footer,section.cover::after {color:#dbeafe}
+table {font-size:24px} th {background:#eaf2f8}

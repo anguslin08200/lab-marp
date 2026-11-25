@@ -1,0 +1,7 @@
+/* @theme minimal */
+@import 'default';
+/* Neutral typography keeps the emphasis on paper figures and formulas. */
+section {font-family:'Microsoft JhengHei','Segoe UI',sans-serif;font-size:28px;padding:65px 80px;color:#222;background:white;justify-content:flex-start}
+h1 {font-size:46px;color:#111;margin-bottom:32px} h2 {font-size:36px} strong {color:#111}
+footer,section::after {font-size:16px;color:#666} section.cover {justify-content:center}
+table {font-size:24px} th {background:#f0f0f0}
